@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <title>Statistikrechner</title>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="stats.css">
+  <script src="stats.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h2>Statistikrechner</h2>
+    </header>
+    <section>
+      <form name="stats" onsubmit="return calculate()">Gib deine Zahlenfolge ein!<br>
+        <textarea id="numbers" rows="5" cols="50">Gib hier deine Zahlenfolge ein!</textarea><br>
+        <input type="submit" name="submit" value="Testen">
+      </form>
+      <div id="result"></div>
+    </section>
+</body>
+</html>
